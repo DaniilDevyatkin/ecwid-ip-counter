@@ -1,0 +1,12 @@
+=== 1 M lines ===
+file             ip_1M.txt      bytes 11,119,875  lines 1,000,000 (bad 0)
+distinct (exact) 432,547      HLL estimate 431,319  time 528 ms (20.1 MB/s)
+HashSet baseline 432,547 (324 ms)
+=== 4 M lines ===
+file             ip_4M.txt      bytes 47,228,570  lines 4,000,000 (bad 0)
+distinct (exact) 1,729,664    HLL estimate 1,717,422  time 227 ms (198.4 MB/s)
+HashSet baseline 1,729,664 (1836 ms)
+=== 16 M lines ===
+file             ip_16M.txt     bytes 195,819,958  lines 16,000,000 (bad 0)
+distinct (exact) 6,917,777    HLL estimate 6,942,755  time 792 ms (235.8 MB/s)
+HashSet baseline 6,917,777 (9345 ms)
